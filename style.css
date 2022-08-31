@@ -358,6 +358,7 @@ p img{
 }
 .button{
     margin: .5rem .5rem;
+    margin: 0 1rem;
 }
 .bot1{
     font-size: 1rem;
