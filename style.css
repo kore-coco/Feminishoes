@@ -47,6 +47,9 @@ a:hover{
     color: rgba(0,0,0,1);
     transition: all 1s ease; 
 }
+.home{
+    color: #00f;
+}
 i{
     color: rgb(75, 74, 74);
     padding-left: 0.5rem;
@@ -55,14 +58,13 @@ i:hover{
     color:rgba(0,0,0,1);
     transition: all 1s ease; 
 }
-.search{
-    color: rgb(54, 54, 54);
-    border-radius: 2rem;
-    padding: .2rem 1.5rem;
-    background-color: #9c9c9c;
-}
-.search i{
-   margin-left: 1rem;
+input{
+    padding: 0.3rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid rgb(75, 74, 74);
+    border-radius: 1.5rem;
 }
 .dropdown{
     font-size: 2rem;
