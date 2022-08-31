@@ -65,6 +65,7 @@ input{
     font-weight: 500;
     border: 2px solid rgb(75, 74, 74);
     border-radius: 1.5rem;
+    visibility: hidden;
 }
 .dropdown{
     font-size: 2rem;
