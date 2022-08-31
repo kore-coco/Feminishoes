@@ -1,0 +1,583 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#nav{
+    max-width: 100%;
+    background-color: #000;
+}
+nav> .fa, #fem{
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+} 
+nav{
+    background-color: #fff; opacity: 0.7;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    visibility: hidden;
+}
+a{
+    color:rgb(75, 74, 74);
+    font-size: 1.2rem;
+}
+a:hover{
+    font-size:1.5rem;
+    color: rgba(0,0,0,1);
+    transition: all 1s ease; 
+}
+i{
+    color: rgb(75, 74, 74);
+    padding-left: 0.5rem;
+}   
+i:hover{
+    color:rgba(0,0,0,1);
+    transition: all 1s ease; 
+}
+.search{
+    color: rgb(54, 54, 54);
+    border-radius: 2rem;
+    padding: .2rem 1.5rem;
+    background-color: #9c9c9c;
+}
+.search i{
+   margin-left: 1rem;
+}
+.dropdown{
+    font-size: 2rem;
+    width: 3rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+#second{
+    max-width: 100%;
+}
+.seconds{
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+     background-image: url(./Images/glass.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index:1;
+}
+.second::after{
+    content: "";
+    position: absolute;
+    top:0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: -1;
+}
+h2{
+    font-size: 1.5rem;
+    margin-top: 6rem;
+    margin-left: 1rem;
+}
+h2 span{
+    color: #00f;
+}
+.never{
+    width: 80%;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.btns{
+    color: rgb(10, 10, 10);
+    border: 4px solid #ffffff;
+    border-radius: 1rem;
+    padding: 0.5rem ;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    transition: all 1s ease;
+}
+.btns:hover, .btns i:hover{
+    color: #fff;
+    background-color: #00f;
+}
+.btns i{
+    margin-right: 0.5rem;
+    color: rgb(17, 17, 17);
+    transition: all 1s ease;
+}
+#third{
+    max-width: 100%;
+    margin-top: 3rem;
+}
+.why{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirds{
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.third{
+    margin: 1rem;
+}
+.qd{
+    text-align: center;
+}
+.third i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third p{
+    text-align: center;
+}
+#fourth{
+    max-width: 100%;
+}
+.fourth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 90%;
+    border-radius: .5rem;
+    height: 30vh;
+    margin-top: 1rem;
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    filter: brightness(0.5);
+}
+.wrapper{
+    position: relative;
+}
+.wrapper .tag{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+}
+.tag{
+    font-size: 1.2rem;
+    font-weight:500;
+    border: 12px solid #fff;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+}
+.tag1{
+    border: 12px solid rgb(196, 196, 61);
+    background-color:rgb(196, 196, 61) ;
+}
+.tag2{
+    border: 12px solid rgb(75, 172, 202);
+    background-color: rgb(75, 172, 202);
+}
+.tag3{
+    border: 12px solid rgb(238, 225, 207);
+    background-color:rgb(238, 225, 207) ;
+}
+.tag4{
+    border: 12px solid #fff;
+    background-color: #fff;
+} 
+#fifth{
+    max-width: 100%;
+    margin-top: 17rem;
+}
+.fifth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text{
+    margin: 1rem 1rem;
+}
+.new{
+    color: #6d6c6c;
+}
+.read{
+    color: #00f;
+}
+.price{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color:#6d6c6c;
+}
+.price span{
+    color: #000;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn1, .btn2{
+    color: rgb(10, 10, 10);
+    border:none;
+    border-radius: 13px;
+    padding: .5rem 2rem;
+    font-size: 400;
+    font-weight: 600;
+    margin-top: .5rem;
+    transition: all 1s ease;
+}
+.btn1:hover, .btn2:hover{
+    background-color: #000;
+    color: rgb(207, 205, 205);
+    border:2px solid #fff;
+}
+.btn1{
+    color: #fff;
+    border: 2px solid #00f;
+    background-color: #00f;
+}
+.btn2{
+    border: 2px solid #000;
+}
+.imgwrapper{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fifth img{
+    width: 90%;
+    border-radius: .5rem;
+    height: 30vh;
+    margin: 1rem 1rem;   
+}
+.imgs{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+ #sixth{
+    max-width: 100%;
+    margin-top: 50rem; 
+}
+.sixth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.test{
+    border: 2px solid #99c;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+p img{
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.name, .words, .flag{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.flag{
+    color:#99c;
+}
+#last{
+    max-width: 100%;
+    background-color: rgba(139, 69, 19, 0.5);
+}
+.last{
+    width:100%;
+    color: #fff;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.heads{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.last h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+.ql a{
+    color: #fff;
+    transition: all 1s ease;
+}
+.ql a:hover{
+    color: #00f;
+    font-size: 1.3rem;
+}
+.button{
+    margin: .5rem .5rem;
+}
+.bot1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.25rem 1rem;
+    background-color:  rgba(0, 0, 255, 0.158);
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.bot2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.25rem 1rem;
+    background-color: #00f;
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.bot2:hover{
+    color: #000;
+    background-color: rgba(252, 248, 248, 0.966);
+    font-weight: 600;
+}
+#fa{
+    margin: 1rem 1rem;
+}
+footer{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+@media screen and (min-width:768px) {
+    .why{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    .never{
+        font-size: 1.2rem;
+    }
+    .btns{
+        padding: .7rem;
+        font-size: 1.1rem;
+    }
+    .thirds, .sixth, .last{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .third{
+        padding: 1.1rem 1.8rem;
+    }
+    .fourth{
+        margin-top: 1.5rem;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .wrapper{
+        width: 90%;
+        height: 40vh;
+    }
+    .wrapper img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .tag{
+        font-size: 1rem;
+    }
+    #fifth{
+        margin-top: 2.5rem;
+    }
+    .fifth{
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: 50% 45%;
+    }
+    .text{
+        font-size:1.1rem;
+        font-weight: 400;
+    }
+    .imgwrapper{
+        width: 100%;
+        height: 15vh;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .imgs{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    #sixth{
+        margin-top:0rem;
+    }
+    .test{
+        margin: 1.8rem;
+    }
+    #last{
+        margin-top: 1.5rem;
+    }
+    .heads{
+        padding: .5rem;
+    }
+    .cu, .comp, .ql, .sub{
+        padding: 0 1.6rem;
+    }
+    .bot1, .bot2{
+        padding: .5rem 1.25rem;
+    }
+    footer{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 1.5rem;
+    }
+}
+@media screen and (min-width:1200px) {
+    nav> .fa, #fem{
+        font-size: 2rem;
+    }
+    nav ul li{
+       visibility: visible;
+    }
+    .why{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .seconds{
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    h2{
+        font-size: 2rem;
+        margin-top: 8rem;
+    }
+    .never{
+        font-size: 1.5rem;
+    }
+    .btns{
+        padding: .8rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .thirds, .sixth, .last{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .third{
+        padding: 1.2rem 2rem;
+    }
+    #fourth{
+        margin: 2rem;
+    }
+    .fourth{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .wrapper{
+        width: 100%;
+        height: 40vh;
+    }
+    .wrapper img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #fifth{
+        margin-top: 1rem;
+    }
+    .fifth{
+        display: grid;
+        grid-template-columns: 50% 45%;
+    }
+    .text{
+        font-size:1.18rem;
+        font-weight: 400;
+    }
+    .imgwrapper{
+        width: 100%;
+        height: 15vh;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .imgs{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    #sixth{
+        margin-top:0;
+    }
+    .test{
+        margin: 2rem;
+    }
+    #last{
+        margin-top: 1.5rem;
+    }
+    .heads{
+        padding: .5rem;
+    }
+    .cu, .comp, .ql, .sub{
+        padding: 0 2rem;
+    }
+    .bot1, .bot2{
+        padding: .5rem 1.25rem;
+    }
+    footer{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 1.5rem;
+    }
+}
