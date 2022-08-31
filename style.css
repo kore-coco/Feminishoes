@@ -227,6 +227,7 @@ h2 span{
 #fifth{
     max-width: 100%;
     margin-top: 17rem;
+    background-color: rgba(153, 153, 204, 0.3);
 }
 .fifth{
     width: 100%;
