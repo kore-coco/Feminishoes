@@ -58,15 +58,6 @@ i:hover{
     color:rgba(0,0,0,1);
     transition: all 1s ease; 
 }
-input{
-    padding: 0.3rem;
-    text-align: left;
-    font-size: 1rem;
-    font-weight: 500;
-    border: 2px solid rgb(75, 74, 74);
-    border-radius: 1.5rem;
-    visibility: hidden;
-}
 .dropdown{
     font-size: 2rem;
     width: 3rem;
